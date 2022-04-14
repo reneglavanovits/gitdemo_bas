@@ -9,7 +9,11 @@ sap.ui.define([
 
 		return Controller.extend("gitdemobas.controller.Main", {
 			onInit: function () {
-                
+                // call onPatternMatched
+            },
+
+            onPatternMatched: function(oEvent){
+
             }
 		});
 	});
